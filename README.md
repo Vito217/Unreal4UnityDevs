@@ -6,7 +6,6 @@ A Unreal Engine guide for Unity developers. I'm slowly learning Unreal, so pleas
 --- | --- | --- | ---
 | Behaviour.enabled | PrimaryActorTick.bCanEverTick | If true, the object can call Update/Tick every frame | |
 | CharacterController | APlayerController | |
-| GameObject.AddComponent("Component") | #include "ComponentGroup/Component.h" | Adds a component class to the object/actor. | In C++, ComponentGroup is similar to "using ComponentGroup" and then calling the Component class (or rather ComponentGroup.Component) in C#. |
 | GameObject.GetComponent("Desired") | AActorChildClass::GetDesiredComponent() | Returns the desired component | |
 | [HideInInspector] | UPROPERTY(VisibleAnywhere) | While opposites, both serve as annotations for hiding/showing properties in the inspector/editor | |
 | MonoBehaviour | AActor | Both represent an object | The AActor object has a UCLASS() annotation. |
